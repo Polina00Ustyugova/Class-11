@@ -96,7 +96,7 @@ int main()
 		cout << "Увеличение всех элментов списка на сумму минимального и максимального:\n";
 		increase_elements(l, min_el, max_el);
 		print(l);
-		cout << "Введите ключи пар, между которыми всё будет удалено:\nОТ\n"; 
+		cout << "Введите ключи пар:\nОТ\n"; 
 		cin >> range_min;
 		cout << "ДО\n"; 
 		cin >> range_max;
