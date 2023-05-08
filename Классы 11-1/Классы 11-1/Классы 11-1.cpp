@@ -37,7 +37,7 @@ double average(List& l) // finding the arithmetic mean
 void range(List& l)
 {
 	double one, two;
-	cout << "Укажите границы (ключи), которые будут удалены" << endl;
+	cout << "Укажите границы (ключи)" << endl;
 	cout << "Введите первую границу: "; 
 	cin >> one;
 	cout << "Введите вторую границу:  "; 
@@ -78,7 +78,7 @@ int main()
 	cout << "\nПрибавление к каждому элементу списка суммы минимального и максимального значений\n";
 	add_minmax(l);
 	print(l);
-	cout << "\nУдаление чисел\n";
+	cout << "\nСписок с удалёнными элементами\n";
 	range(l);
 	print(l);
 	return 0;
